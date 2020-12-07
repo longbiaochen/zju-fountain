@@ -1,0 +1,35 @@
+appname: zjufountain
+version: 1
+
+cron:
+    - description: sayit 8:00
+    url: sayit_holiday.php?type=55
+    schedule: every day of month 8:00
+    
+    - description: sayit 11:30
+    url: sayit_holiday.php?type=56
+    schedule: every day of month 11:30
+    
+    - description: sayit 15:00
+    url: sayit_holiday.php?type=57
+    schedule: every day of month 15:00
+     
+    - description: sayit of holiday 20:00
+    url: sayit_holiday.php?type=58
+    schedule: every day of month 20:00
+    
+    - description: sayit of holiday 22:00
+    url: sayit_holiday.php?type=59
+    schedule: every day of month 22:00
+
+    - description: ami pa for every 2 mins and offset 0
+    url: ami_pa.php
+    schedule: every 2 min
+    
+    - description: ami papa for every 2 mins and offset 0
+    url: ami_papa.php
+    schedule: every 2 min
+
+    - description: sf hero for every 5 mins and offset 0
+    url: ami_da.php
+    schedule: every 1 min
